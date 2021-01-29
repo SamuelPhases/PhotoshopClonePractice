@@ -1,0 +1,32 @@
+button {
+  margin: 1em auto;
+  width: 100%;
+  background-color: transparent;
+  /* background-color: teal; */
+  padding: 0.6em 1.2em;
+  color: #011;
+  font-weight: 500;
+  /* text-transform: uppercase; */
+  border: none;
+  font-size: 0.9rem;
+  text-align: left;
+  padding-left: 0.3em;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2),
+    -2px -2px 5px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  outline: none;
+}
+
+button:hover {
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.5);
+}
+
+button.active {
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.5);
+  color: rgb(76, 126, 123);
+  padding-left: 0.6em;
+}
